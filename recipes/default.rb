@@ -4,4 +4,7 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-include_recipe :users
+users_manage 'sysadmin' do
+    action [:create,:update,:remove]
+    group_id 10001
+end
