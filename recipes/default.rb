@@ -4,7 +4,7 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-include_recipe 'sensu::client_service'
+sensu_agent 'default'
 
 users_manage 'sysadmin' do
     action [:create,:remove]
