@@ -6,8 +6,8 @@
 # found at http://inspec.io/docs/reference/resources/
 
 unless os.windows?
-  # This is an example test, replace with your own test.
-  describe user('root'), :skip do
+  # verify the test user exists
+  describe user('test'), :skip do
     it { should exist }
   end
 end

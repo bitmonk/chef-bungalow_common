@@ -1,0 +1,9 @@
+{
+  "id": "test",
+  "uid": 11000,
+  "groups": [
+    "docker",
+    "sysadmin"
+  ],
+  "shell": "/bin/bash"
+}
